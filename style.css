@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+
+*{
+  /*border:solid 1px blue;*/
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+.ncyu{
+  padding-top:50px;
+}
+
+section{
+  padding-top:100px;
+}
+
+section#s1{
+  background-color:#FAA695;
+}
+
+/* 40px */
+.toTop-arrow {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #909FA6;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 18px;
+	height: 5px;
+	border-radius: 3px;
+	background: #D99879;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.5rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;}
+
+ .bg-deepblue{ background: #753517; margin:0; padding:0; } 
+.section-card-group{ display: block; width: 1056px; margin: auto; } 
+@media (max-width:1040px) { .section-card-group{ width: 805px; } } 
+
+@media (max-width: 768px) { .section-card-group{ width: 526px; } } 
+
+@media (max-width: 375px) { .section-card-group{ width: 260px; } } 
+.section-card-group h1{ color: #fff; text-align: center; font-size: 42px; letter-spacing: 2px; margin-bottom: 40px; } /*大標題*/
+
+.card-container{ position: relative; display: inline-block; width: 250px; height: 295px; margin: 20px 5px; top:0px; transition-property: top; transition-duration: .3s; } 
+
+.card-container:hover{ top:20px; } 
+
+.circle{ position: absolute; display: inline-block; width: 150px; height: 150px; background: #D99879; margin: 0; padding: 0; border-radius: 75px; left: 50px; z-index: 2; } /*點數大園*/
+
+.circle h3{ display: block; color:#fff; font-size: 70px; font-weight: 400; line-height: 0px; text-align: center; vertical-align: text-top; margin: 0; -webkit-margin-before: 50px; margin-block-start: 50px; -webkit-margin-after: 50px; margin-block-end: 50px; } 
+
+.circle span{ display: block; color:#fff; font-size: 32px; line-height: 10px; text-align: center; margin: 0; -webkit-margin-before: 0px; margin-block-start: 0px; -webkit-margin-after: 50px; margin-block-end: 50px; } 
+
+.point-card{ position: absolute; display: inline-block; width: 246px; height: 144px; border: 1px solid #D99879; top: 75px; padding-top: 75px; z-index: 1; background-color: #ffffff00; transition-property: background-color; transition-duration: .3s; } /*觸碰點數邊框*/
+
+.point-card:hover { background-color: #52220C; } /*觸碰點數陰影*/
+
+.point-card h3{ line-height:0; padding: 0; margin: 0; -webkit-margin-before: 30px; margin-block-start: 30px; -webkit-margin-after: 30px; margin-block-end: 30px; text-align: center; color: #fff; font-size: 40px; font-weight: 400; } 
+
+.point-card p{ margin: 0; -webkit-margin-before: 0px; margin-block-start: 0px; -webkit-margin-after: 0px; margin-block-end: 0px; text-align: center; color: #fff; font-size: 20px; font-weight: 400; } 
+
+.point-card p span{ -webkit-margin-before: 0px; margin-block-start: 0px; -webkit-margin-after: 0px; margin-block-end: 0px; width: 45px; height: 45px; font-size: 26px; color: #b2711b; font-weight: 400; vertical-align: middle; } 
+.point-card p .coin{ display: inline-block; background: #fcc000; border: 5px solid #ffd715; border-radius: 75px; width: 45px; height: 45px; } 
+
+.section-card-group .container-col-7{ display: inline-block; width: 59%; } 
+
+.section-card-group .container-col-5{ display: inline-block; width: 39%; } 
+
+.title-round{ display: inline-block; height: 95px; width: 95px; background: #9d7a4e; border-radius: 50px; } 
+
+.title-round span{ display: block; width: 60px; font-size: 26px; color: #fff; text-align: center; margin: auto; padding-top: 10px; } 
+
+.text-round{ display: inline-block; vertical-align: top; } 
+.text-round{ display: inline-block; vertical-align: top } 
+
+.text-round p{ font-size: 18px; color: #fff; } .point-card p .coin { font-size: 20px; }
